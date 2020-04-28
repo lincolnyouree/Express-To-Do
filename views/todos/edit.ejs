@@ -8,11 +8,11 @@
   <title>Express To-Do</title>
 </head>
 <body>
-    <h1>Edit Todo</h1>
+    <h1>Edit To-Do</h1>
     <form action="/todos/<%= idx %>?_method=PUT" method="POST" autocomplete="off">
       <input type="checkbox" name="done" <%= todo.done ? 'checked' : '' %>>&nbsp;&nbsp;  
       <input type="text" name="todo" value="<%= todo.todo %>">
-        <button type="submit">Save Todo</button>
+        <button type="submit">Save To-Do</button>
     </form>
 </body>
 </html>

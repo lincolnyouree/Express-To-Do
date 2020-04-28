@@ -7,7 +7,6 @@ router.get('/new', todosCtrl.new);
 router.get('/:id', todosCtrl.show);
 router.get('/:id/edit', todosCtrl.edit);
 
-// POST /todos
 router.post('/', todosCtrl.create);
 router.delete('/:id', todosCtrl.delete);
 router.put('/:id', todosCtrl.update);
