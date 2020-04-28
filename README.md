@@ -1,7 +1,12 @@
-To sync your code with Jim's latest commit, run the following two commands: 
+# Express To-Do
 
-- `git fetch --all`
+* A simple, full CRUD to-do list maker built in Express.
 
-- `git reset --hard origin/master`
-# Express-To-Do
-# Express-To-Do
+* Click [here]() to view the app!
+
+## Technologies Implemented: 
+
+* Node | Express
+* HTML
+* CSS
+* GitHub Pages
