@@ -2,7 +2,7 @@
 
 * A simple, full CRUD to-do list maker built in Express.
 
-* Click [here]() to view the app!
+* Click [here](https://lincolnyouree.github.io/Express-To-Do/) to view the app!
 
 ## Technologies Implemented: 
 
