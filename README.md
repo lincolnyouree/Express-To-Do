@@ -10,3 +10,8 @@
 * HTML
 * CSS
 * GitHub Pages
+
+## Screenshots:
+
+![Wireframe](https://i.imgur.com/jgzKnko.png)
+![Wireframe](https://i.imgur.com/55O8uLj.png)

@@ -5,13 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
   <title>Express To-Do</title>
 </head>
 <body>
-  <a href="/">Home</a> | <a href="/todos">To-Do List</a>
-  <h1>To-Do #<%= todoNum %></h1>
-  <h3><%= todo.todo %></h3>
-  <h3>Complete: <%= todo.done ? 'Yes' : 'No' %></h3>
-  <a href="/todos/<%= todoNum - 1 %>/edit">Edit To-Do></a>
+  <div class="page">
+    <a href="/">Home</a><a href="/todos">To-Do List</a>
+    <h1>To-Do #<%= todoNum %></h1>
+    <h3><%= todo.todo %></h3>
+    <h3>Complete: <%= todo.done ? 'Yes' : 'No' %></h3>
+    <a href="/todos/<%= todoNum - 1 %>/edit">Edit To-Do</a>
+  </div>
 </body>
 </html>
