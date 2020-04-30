@@ -2,14 +2,12 @@
 
 * A simple, full CRUD to-do list maker built in Express.
 
-* Click [here](https://lincolnyouree.github.io/Express-To-Do/) to view the app!
-
 ## Technologies Implemented: 
 
 * Node | Express
+* JavaScript
 * HTML
 * CSS
-* GitHub Pages
 
 ## Screenshots:
 
